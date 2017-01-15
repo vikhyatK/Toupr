@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Toupr Plugin",
+  "description": "This extension will case of selected text in the textbox or textfield.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html",
+   "default_title": "Toupr"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
